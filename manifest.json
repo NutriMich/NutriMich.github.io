@@ -1,0 +1,43 @@
+{
+  "name": "Diana Lara — Nutrióloga Clínica",
+  "short_name": "Diana Lara",
+  "description": "Herramientas nutricionales clínicas basadas en SMAE",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fefcff",
+  "theme_color": "#6b21a8",
+  "orientation": "portrait-primary",
+  "lang": "es-MX",
+  "categories": ["health", "medical"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='48' fill='%236b21a8'/%3E%3Ctext x='96' y='135' text-anchor='middle' font-family='Georgia,serif' font-size='90' font-weight='bold' fill='white'%3EDL%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='120' fill='%236b21a8'/%3E%3Ctext x='256' y='355' text-anchor='middle' font-family='Georgia,serif' font-size='240' font-weight='bold' fill='white'%3EDL%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Calcular IMC",
+      "short_name": "IMC",
+      "description": "Calculadora de IMC y peso ideal",
+      "url": "/#herramientas",
+      "icons": [{"src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext y='20' font-size='20'%3E⚖️%3C/text%3E%3C/svg%3E", "sizes": "24x24"}]
+    },
+    {
+      "name": "Área Clínica",
+      "short_name": "Clínico",
+      "description": "30 herramientas clínicas profesionales",
+      "url": "/clinico.html",
+      "icons": [{"src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext y='20' font-size='20'%3E🔬%3C/text%3E%3C/svg%3E", "sizes": "24x24"}]
+    }
+  ]
+}
